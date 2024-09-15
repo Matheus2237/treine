@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --verde: #89C5CC;
+    --cinza: #8E8999;
+    --cinza-escuro: #1F1534;
+}
+
+body {
+    padding: 5.5rem 12.5rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__logo, .cabecalho__navegacao__link {
+    text-decoration: none;
+}
+
+.cabecalho__logo {
+    font-family: 'inter';
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--verde);
+}
+
+.cabecalho__navegacao {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.cabecalho__navegacao__link {
+    font-family: 'mulish';
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: var(--cinza);
+}
+
+.cabecalho__navegacao__link__selecionado {
+    font-weight: bold;
+    color: var(--cinza-escuro);
+}
