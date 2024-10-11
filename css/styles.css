@@ -57,14 +57,32 @@ body {
     color: var(--cinza-escuro);
 }
 
-main {
+.container__principal {
     grid-area: "main";
     display: flex;
     flex: 1;
 }
 
+.informacao__principal {
+    margin-top: 5rem;
+    width: 50%;
+}
+
+.titulo__principal {
+    font-family: 'mulish';
+    font-size: 4rem;
+    line-height: 6rem;
+}
+
+.titulo__highlight {
+    color: var(--verde);
+    font-weight: bold;
+}
+
+
 .imagem__principal {
     height: 70vh;
+    width: 50%;
 }
 
 footer {
