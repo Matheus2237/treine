@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
     --verde: #89C5CC;
-    --cinza: #8E8999;
+    --cinza-claro: #8E8999;
+    --cinza: #7D7987;
     --cinza-escuro: #1F1534;
 }
 
@@ -49,7 +51,7 @@ body {
     font-family: 'mulish';
     font-size: 1.5rem;
     font-weight: normal;
-    color: var(--cinza);
+    color: var(--cinza-claro);
 }
 
 .cabecalho__navegacao__link__selecionado a {
@@ -79,6 +81,18 @@ body {
     font-weight: bold;
 }
 
+.texto__principal {
+    font-family: 'Open Sans';
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: 85%;
+    margin-top: 1rem;
+    color: var(--cinza);
+}
+
+.texto__highlight {
+    font-weight: bold;
+}
 
 .imagem__principal {
     height: 70vh;
