@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
     --verde: #89C5CC;
+    --verde-whatsapp: #69B99D;
+    --verde-whatsapp-escuro: #57A488;
     --cinza-claro: #8E8999;
     --cinza: #7D7987;
     --cinza-escuro: #1F1534;
+    --branco-whatsapp: #F9F9F9;
 }
 
 body {
@@ -84,7 +88,7 @@ body {
 .texto__principal {
     font-family: 'Open Sans';
     font-size: 1.5rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
     width: 85%;
     margin-top: 1rem;
     color: var(--cinza);
@@ -97,6 +101,33 @@ body {
 .imagem__principal {
     height: 70vh;
     width: 50%;
+}
+
+.botao__principal {
+    margin-top: 3.5rem;
+    padding: 1.5rem 4rem;
+    background-color: var(--verde-whatsapp);
+    border: none;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.3rem;
+    font-family: 'DM Sans';
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--branco-whatsapp);
+    cursor: pointer;
+}
+
+.icone__whatsapp__principal {
+    margin-right: 0.3rem;
+    transform: scale(1.3);
+}
+
+.botao__principal:hover {
+    background-color: var(--verde-whatsapp-escuro);
 }
 
 footer {
