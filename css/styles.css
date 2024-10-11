@@ -132,9 +132,21 @@ body {
 
 .rodape {
     grid-area: "footer";
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Open Sans';
     font-size: 1rem;
+}
+
+.rodape__decoracao {
+    position: absolute;
+    bottom: 1.2rem;
+    right: 1.2rem;
+}
+
+.rodape__decoracao__icone {
+    object-fit: cover;
+    transform: scale(1.3);
 }
